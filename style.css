@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:"ubuntu", sans-serif;
+}
+
+.body{
+    background-image: linear-gradient(rgb(166, 248, 170), rgb(171, 97, 240), rgb(245, 114, 190));
+    height: 100vh;
+    align-items: center;
+   
+}
+
+
+.title{
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.title p{
+    font-size: 18px;
+}
+
+.card{
+    height: auto;
+    background-color: rgb(255, 205, 205);
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 0 4px rgb(184, 123, 123);
+}
+
+.card-body{
+    background-color: rgb(248, 236, 247);
+}
+
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+.card-text {
+    text-align-last: right;
+  }
+
+img{
+    height: 450px;
+    width: 300px;
+    border-radius: 10px;
+    opacity: 90%;
+}
+
+.card:hover {
+    transition: 0.8s;
+    transform: scale(1.1);
+}
